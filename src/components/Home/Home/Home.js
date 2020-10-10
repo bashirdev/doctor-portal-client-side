@@ -2,7 +2,9 @@ import React from 'react';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
 import DentalCare from '../DentalCare/DentalCare';
-import Doctors from '../Doctors/Doctors';
+import DoctorsList from '../DoctorList/DoctorsList';
+import Footer from '../../Shared/Footer/Footer';
+
 
 import Header from '../Header/Header';
 import MakeAppoinment from '../MakeAppoinment/MakeAppoinment';
@@ -18,8 +20,9 @@ const Home = () => {
            <MakeAppoinment></MakeAppoinment> 
            <Testimonials></Testimonials>
            <Blog></Blog>
-           <Doctors></Doctors>
+           <DoctorsList />
            <Contact></Contact>
+           <Footer></Footer>
         
         
         </div>

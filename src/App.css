@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+.text-brand{
+  color:#1cc7c1
+}
+.btn-brand{
+  background: linear-gradient( rgba(62,246,213,1) 44%, rgba(0,212,255,1) 100%);
+  color: white;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

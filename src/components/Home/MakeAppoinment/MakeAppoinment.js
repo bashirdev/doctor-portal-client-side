@@ -3,7 +3,7 @@ import './MakeAppoinment.css';
 import doctor from '../../../images/doctor.png'
 const MakeAppoinment = () => {
     return (
-        <section className="make-appointment ml-5">
+        <section className="make-appointment ">
         <div style={{marginTop:'150px'}} className="container">
             <div className="row">
                 <div className="col-md-5 d-none d-md-block">
