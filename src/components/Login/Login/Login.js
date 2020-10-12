@@ -8,7 +8,7 @@ import firebaseConfig from './FirebaseConfig';
 
 const Login = () => {
 
-  const {id} =useParams();
+ 
     const [loggedInUser,setLoggedInUser]= useContext(userContext);
   
     const history = useHistory();
